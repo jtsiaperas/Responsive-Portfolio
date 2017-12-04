@@ -188,7 +188,7 @@ input[type=submit]{
 	margin-bottom: 20px;
 }
 
-input[type=submit]:hover {
+input[typ100%mit]:hover {
 	background-color: #4bbbb5;
 }
 
@@ -222,3 +222,184 @@ table img{
 	color: white;
 	text-align: center;
 }
+
+@media only screen and (max-width: 768px) and (min-width: 681px){
+#top_bar {
+	width: 100%;
+}
+
+
+.container {
+	width: 100%;
+   
+}
+
+#about_me, #contact {
+	width: 380px;
+	padding-bottom: 20px;
+}
+
+#portfolio {
+	width: 90%; 
+	margin-left: 5%;
+ 	margin-right: 5%;
+}
+ #portfolio h1 {
+ 	width: 90%;
+ 	margin-left: 5%;
+ 	margin-right: 5%;
+ }
+
+#about_me h1, #contact h1{
+	width: 340px;
+}
+
+#about_me img{
+	max-width: 160px;
+	max-height: 160px;
+}
+
+form {
+	width: 340px;
+}
+
+textarea {
+	width: 340px;
+	height: 100px;
+}
+
+table {
+	width: 90%;
+}
+
+td{
+	width: 40%;
+}
+
+table img{
+	width: 90%;
+	left: 15%;
+	top: 25px;
+}
+
+.banners {
+	left: 15%;
+	width: 90%;
+	bottom: 50px;
+}
+
+#connect.portfolio {
+    position: relative;
+    width: 100%;
+    bottom: 60px;
+}
+
+#connect.portfolio ul{
+	padding-left: 33%;
+}
+}
+
+@media only screen and (max-width: 680px) {
+
+header{
+	height: 60px;
+	line-height: 60px;
+}
+
+#top_bar {
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+}
+
+#menu {
+	width: 41%;
+	height: 60px;
+	line-height: 60px;
+}
+
+
+#title {
+	height: 60px;
+	width: 40vw;
+	line-height: 60px;
+	font-size: 4vw;
+}
+
+.container {
+	width: 90%;
+	margin-left: 5%;
+}
+
+#about_me, #contact, #portfolio {
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+#about_me h1, #contact h1, #portfolio h1{
+	width: 90%;
+	text-align: center;
+}
+
+#about_me img{
+
+	padding-bottom: 10px;
+}
+
+.banners {
+	left: 15%;
+	width: 90%;
+	bottom: 50px;
+}
+
+#connect{
+    position: relative;
+    width: 100%;
+    bottom: 60px;
+}
+
+#connect ul{
+	width: 50%;
+	margin-left: 25%;
+}
+
+#connect li{
+	width: 33%;
+}
+
+#connect img{
+    width: 100%;
+}
+
+form {
+	width: 95%;
+}
+textarea {
+	width: 100%;
+}
+
+table {
+	width: 90%;
+}
+
+
+table img{
+	width: 90%;
+	left: 15%;
+	top: 25px;
+}
+#menu li{
+	width: 28%;
+	font-size: 3vw;
+}
+
+.banners {
+	left: 15%;
+	width: 90%;
+	height: 10vw;
+	bottom: 7vw;
+	line-height: 10vw;
+	font-size: 4vw;
+}
+}
+
